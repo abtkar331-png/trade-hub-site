@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="is-loading">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f9f9">
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     تحقّق دومين Cryptomus
+     من لوحة التاجر: Settings → Domain verification → Meta tag
+     الصق الكود جوه content وشيل التعليق.
+     (أو حُطّ ملف التحقق HTML جوه public/ زي ما هو)
+     ═══════════════════════════════════════════════════════════════════ -->
+<!-- <meta name="cryptomus" content="PASTE-YOUR-VERIFICATION-CODE-HERE"> -->
+
+<title data-i18n-title="meta.title">Trade Hub — Trading Education &amp; Market Analytics Platform</title>
+<meta name="description" content="Trade Hub is a multi-platform subscription service for trading education: a structured video academy, educational market analysis, a 24/7 AI assistant, and strategy tools on Android, iOS, Web and Windows. Educational content only — not financial advice.">
+<link rel="canonical" href="https://abtkar331-png.github.io/trade-hub-site/">
+
+<!-- مشاركة على السوشيال -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Trade Hub">
+<meta property="og:title" content="Trade Hub — Learn the markets. Trade with a system.">
+<meta property="og:description" content="A structured video academy, educational market analysis, a 24/7 AI assistant and strategy tools — on Android, iOS, Web and Windows.">
+<meta property="og:url" content="https://abtkar331-png.github.io/trade-hub-site/">
+<meta property="og:image" content="https://abtkar331-png.github.io/trade-hub-site/assets/img/og.png">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_EG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Trade Hub — Learn the markets. Trade with a system.">
+<meta name="twitter:description" content="Trading education, market analysis and AI tools in one subscription. Educational content only.">
+<meta name="twitter:image" content="https://abtkar331-png.github.io/trade-hub-site/assets/img/og.png">
+
+<link rel="icon" href="assets/img/favicon-32.png?v=1.8.0" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/img/favicon-64.png?v=1.8.0" sizes="64x64" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/icon-180.png?v=1.8.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="assets/css/app.css?v=1.8.0">
+
+<!-- الثيم قبل أول رسم — يمنع وميض الشاشة -->
+<script>
+  (function(){
+    try{
+      var t=localStorage.getItem('th-theme');
+      if(t) document.documentElement.setAttribute('data-theme',t);
+      var dark = t==='dark' || (!t && window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme:dark)').matches);
+      var m=document.querySelector('meta[name="theme-color"]');
+      if(m&&dark) m.setAttribute('content','#060d0c');
+    }catch(e){}
+  })();
+</script>
+
+<!-- بيانات منظّمة — بتساعد المراجعة والفهرسة -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Organization",
+      "@id":"https://abtkar331-png.github.io/trade-hub-site/#org",
+      "name":"Trade Hub",
+      "url":"https://abtkar331-png.github.io/trade-hub-site/",
+      "logo":"https://abtkar331-png.github.io/trade-hub-site/assets/img/icon-512.png",
+      "email":"abtkar331@gmail.com",
+      "description":"A multi-platform trading education and market analytics subscription platform."
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://abtkar331-png.github.io/trade-hub-site/#site",
+      "url":"https://abtkar331-png.github.io/trade-hub-site/",
+      "name":"Trade Hub",
+      "publisher":{"@id":"https://abtkar331-png.github.io/trade-hub-site/#org"},
+      "inLanguage":["en","ar"]
+    },
+    {
+      "@type":"Product",
+      "name":"Trade Hub Membership",
+      "description":"A digital subscription to a trading education and market analytics platform. Educational content only — not financial advice.",
+      "brand":{"@id":"https://abtkar331-png.github.io/trade-hub-site/#org"},
+      "category":"Educational software subscription",
+      "offers":[
+        {"@type":"Offer","name":"Beginner V1","price":"35.00","priceCurrency":"USD","url":"https://abtkar331-png.github.io/trade-hub-site/contact.html","availability":"https://schema.org/InStock","availableDeliveryMethod":"https://schema.org/OnSitePickup"},
+        {"@type":"Offer","name":"Intermediate V2","price":"50.00","priceCurrency":"USD","url":"https://abtkar331-png.github.io/trade-hub-site/contact.html","availability":"https://schema.org/InStock","availableDeliveryMethod":"https://schema.org/OnSitePickup"},
+        {"@type":"Offer","name":"Professional V3","price":"85.00","priceCurrency":"USD","url":"https://abtkar331-png.github.io/trade-hub-site/contact.html","availability":"https://schema.org/InStock","availableDeliveryMethod":"https://schema.org/OnSitePickup"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ══ شاشة التحميل ══════════════════════════════════════════════ -->
+<div id="loader" role="status" aria-live="polite">
+  <div class="ld">
+    <img class="ld-mark" src="assets/img/logo-192.png?v=1.8.0" alt="" width="84" height="84" fetchpriority="high">
+    <div>
+      <div class="ld-name">Trade&nbsp;Hub</div>
+      <div class="ld-sub" data-i18n="ld.sub">Preparing the platform…</div>
+    </div>
+    <div class="ld-ticks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="ld-bar" aria-hidden="true"><div class="ld-fill"></div></div>
+  </div>
+</div>
+
+<a class="skip" href="#top">Skip to content</a>
+
+<!-- ══ الـ nav ════════════════════════════════════════════════════ -->
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="#top" aria-label="Trade Hub home">
+      <img class="glyph" src="assets/img/logo-64.png?v=1.8.0" alt="" width="31" height="31" decoding="async">
+      Trade&nbsp;Hub
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#app" data-i18n="nav.app">The App</a>
+      <a href="#pricing" data-i18n="nav.pricing">Plans</a>
+      <a href="#payments" data-i18n="nav.payments">Payments</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    </nav>
+    <div class="nav-right">
+      <button class="icon-btn" id="langBtn" type="button" aria-label="التبديل إلى العربية">العربية</button>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch theme">
+        <svg id="themeIcon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <a class="btn btn-primary" href="#pricing" data-i18n="nav.cta">View plans</a>
+      <button class="icon-btn burger" id="burger" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- درج الموبايل -->
+<div id="mobileNav" data-open="false" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="scrim"></div>
+  <div class="sheet">
+    <div class="sheet-top">
+      <span class="brand" style="font-size:17px">
+        <img class="glyph" src="assets/img/logo-64.png?v=1.8.0" alt="" width="31" height="31" decoding="async">
+        Trade&nbsp;Hub
+      </span>
+      <button class="icon-btn close-nav" type="button" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <a class="mlink" href="#features" data-i18n="nav.features">Features</a>
+    <a class="mlink" href="#app" data-i18n="nav.app">The App</a>
+    <a class="mlink" href="#pricing" data-i18n="nav.pricing">Plans</a>
+    <a class="mlink" href="#payments" data-i18n="nav.payments">Payments</a>
+    <a class="mlink" href="#faq" data-i18n="nav.faq">FAQ</a>
+    <hr>
+    <a class="mlink" href="terms.html" data-i18n="pol.t1">Terms of Service</a>
+    <a class="mlink" href="privacy.html" data-i18n="pol.t2">Privacy Policy</a>
+    <a class="mlink" href="refund.html" data-i18n="pol.t3">Refund Policy</a>
+    <a class="mlink" href="contact.html" data-i18n="foot.contact">Contact us</a>
+    <a class="btn btn-primary btn-block" href="#pricing" data-i18n="nav.cta">View plans</a>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- ══ HERO ═══════════════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="hero-in">
+      <div>
+        <div class="eyebrow hero-eyebrow" data-i18n="hero.eyebrow">Multi-platform trading education &amp; analytics</div>
+        <h1 data-i18n="hero.h1">Learn the markets. Trade with a system.</h1>
+        <p class="lead" data-i18n="hero.lead">Trade Hub is an all-in-one platform for traders: a structured video academy, real-time market analysis, a 24/7 AI assistant, strategy automation tools, and a members community — on Android, iOS, Web, and Windows.</p>
+        <div class="chip-row" aria-label="Available platforms">
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M11 18h2"/></svg> Android</span>
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c1 1.5 1 3 0 4"/><path d="M8 8h8l1 12H7z"/></svg> iOS</span>
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg> Web</span>
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg> Windows</span>
+        </div>
+        <div class="hero-cta">
+          <a class="btn btn-onink btn-lg" href="#pricing" data-i18n="hero.cta1">View VIP plans</a>
+          <a class="btn btn-onink-ghost btn-lg" href="#features" data-i18n="hero.cta2">See what's inside</a>
+        </div>
+        <div class="hero-stats">
+          <div class="s"><span class="n mono">4</span><span class="l" data-i18n="hero.stat1">Platforms, one account</span></div>
+          <div class="s"><span class="n mono">24/7</span><span class="l" data-i18n="hero.stat2">AI trading assistant</span></div>
+          <div class="s"><span class="n mono">3</span><span class="l" data-i18n="hero.stat3">Flexible membership plans</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone">
+          <div class="screen">
+            <img src="assets/img/screens/signals.png?v=1.8.0" width="420" height="740"
+                 alt="Trade Hub app: the educational market analysis screen, showing currency pairs with study timeframes."
+                 fetchpriority="high" decoding="async">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ شريط الثقة ═════════════════════════════════════════════ -->
+  <div class="trust">
+    <div class="trust-in">
+      <span class="t"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 8-8 11-4.5-3-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg><span data-i18n="trust.1">Secure Google sign-in</span></span>
+      <span class="t"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span data-i18n="trust.2">Encrypted payments</span></span>
+      <span class="t"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M13 2L3 14h7l-1 8 10-12h-7z"/></svg><span data-i18n="trust.3">Fast subscription activation</span></span>
+      <span class="t"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span data-i18n="trust.4">Support &amp; community</span></span>
+    </div>
+  </div>
+
+  <!-- ══ الخدمة ═════════════════════════════════════════════════ -->
+  <section id="about">
+    <div class="wrap">
+      <div class="split reveal">
+        <div>
+          <div class="eyebrow" data-i18n="svc.eyebrow">What Trade Hub is</div>
+          <h2 style="font-size:clamp(26px,4.4vw,36px);margin:14px 0 16px" data-i18n="svc.h2">A subscription platform for trading education and market tools</h2>
+          <p class="muted" style="font-size:16.5px" data-i18n="svc.p1">Trade Hub is a digital software and education service. A membership gives you access to learning content and analysis tools inside the app. It is not an investment fund, a broker, or a money-management service — you always trade through your own broker account and make your own decisions.</p>
+          <p class="muted" style="font-size:16.5px;margin-top:14px" data-i18n="svc.p2">Your subscription is a digital product, delivered instantly and entirely online.</p>
+        </div>
+        <div class="service">
+          <div class="eyebrow" data-i18n="svc.inc">Included with every membership</div>
+          <ul class="svc-list" style="margin-top:16px">
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg></span><span><b data-i18n="svc.i1b">Video academy</b> — <span data-i18n="svc.i1">structured courses from fundamentals to advanced strategy.</span></span></li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg></span><span><b data-i18n="svc.i2b">Market analysis</b> — <span data-i18n="svc.i2">educational technical analysis and trade ideas with live charts.</span></span></li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg></span><span><b data-i18n="svc.i3b">AI assistant</b> — <span data-i18n="svc.i3">ask questions and understand indicators, 24/7.</span></span></li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg></span><span><b data-i18n="svc.i4b">Strategy tools</b> — <span data-i18n="svc.i4">a rules-based automation helper you configure and control.</span></span></li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg></span><span><b data-i18n="svc.i5b">Community &amp; support</b> — <span data-i18n="svc.i5">learn alongside other members and reach the team directly.</span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ المميزات ═══════════════════════════════════════════════ -->
+  <section id="features" style="background:var(--surface-2)">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow" data-i18n="feat.eyebrow">Features</div>
+        <h2 data-i18n="feat.h2">Everything a trader needs, in one app</h2>
+        <p data-i18n="feat.p">Built for the Arabic trading community, Trade Hub brings education, analysis, and tools together in one professionally designed experience.</p>
+      </div>
+      <div class="grid g3 reveal">
+        <div class="card">
+          <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M10 9l5 3-5 3z"/></svg></div>
+          <h3 data-i18n="f1.h">Video Academy</h3>
+          <p data-i18n="f1.p">Structured lessons covering market basics, technical analysis, risk management, and advanced strategy — for forex and binary options.</p>
+        </div>
+        <div class="card">
+          <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 17l5-5 4 3 7-8"/><path d="M15 6h4v4"/></svg></div>
+          <h3 data-i18n="f2.h">Market Analysis &amp; Signals</h3>
+          <p data-i18n="f2.p">Real-time technical analysis and educational trade ideas across forex and binary pairs, backed by professional market data and live charts.</p>
+        </div>
+        <div class="card">
+          <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a7 7 0 0 0-4 12.7V18h8v-3.3A7 7 0 0 0 12 2z"/><path d="M9 21h6"/></svg></div>
+          <h3 data-i18n="f3.h">AI Trading Assistant</h3>
+          <p data-i18n="f3.p">A built-in assistant that answers your questions, explains indicators and concepts, and helps you make sense of the market any time.</p>
+        </div>
+        <div class="card">
+          <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 7.5 19l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1A1.6 1.6 0 0 0 3.6 13H3a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 4.7 6.5l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1A1.6 1.6 0 0 0 10 3.6V3a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 2.7 1.1l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1A1.6 1.6 0 0 0 20.4 9H21a2 2 0 1 1 0 4h-.1"/></svg></div>
+          <h3 data-i18n="f4.h">Strategy Automation</h3>
+          <p data-i18n="f4.p">Set up and run rules-based strategies through the automation helper. You define the rules and stay in control at every step.</p>
+        </div>
+        <div class="card">
+          <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+          <h3 data-i18n="f5.h">Transparent Results</h3>
+          <p data-i18n="f5.p">Review timestamped real trade outcomes shared by the team, so you can study how strategies perform over time.</p>
+        </div>
+        <div class="card">
+          <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 8-3 8h18s-3-1-3-8"/><path d="M10.3 21a2 2 0 0 0 3.4 0"/></svg></div>
+          <h3 data-i18n="f6.h">Smart Notifications</h3>
+          <p data-i18n="f6.p">Timely alerts for new lessons, live sessions, and market updates keep you in the loop without the noise.</p>
+        </div>
+        <div class="card">
+          <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9"/><path d="M16 3.1a4 4 0 0 1 0 7.8"/></svg></div>
+          <h3 data-i18n="f7.h">Community &amp; Referrals</h3>
+          <p data-i18n="f7.p">Learn inside a growing trader community, and earn rewards when you invite friends to the platform.</p>
+        </div>
+        <div class="card">
+          <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 8-8 11-4.5-3-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3 data-i18n="f8.h">Multi-Platform &amp; Secure</h3>
+          <p data-i18n="f8.p">One account works across Android, iOS, Web, and Windows, protected by secure Google sign-in and an encrypted cloud backend.</p>
+        </div>
+        <div class="card card-accent">
+          <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></div>
+          <h3 data-i18n="f9.h">Made for Arab traders</h3>
+          <p data-i18n="f9.p">A full Arabic experience, right-to-left design, and content tailored to traders in the region — with English available too.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ معرض التطبيق ═══════════════════════════════════════════ -->
+  <section id="app">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow" data-i18n="app.eyebrow">Inside the app</div>
+        <h2 data-i18n="app.h2">A clean, focused experience on every screen</h2>
+        <p data-i18n="app.p">A quick look at the core areas of Trade Hub — from live analysis to the AI assistant and the academy.</p>
+      </div>
+      <div class="gallery reveal">
+        <figure class="gitem">
+          <div class="phone">
+            <div class="screen">
+              <img src="assets/img/screens/signals.png?v=1.8.0" width="420" height="740" loading="lazy" decoding="async"
+                   alt="Educational market analysis screen listing currency pairs with study timeframes and session times.">
+            </div>
+          </div>
+          <figcaption class="gcap"><b data-i18n="cap1.t">Market Analysis</b><span data-i18n="cap1.s">Educational chart studies</span></figcaption>
+        </figure>
+        <figure class="gitem">
+          <div class="phone">
+            <div class="screen">
+              <img src="assets/img/screens/academy.png?v=1.8.0" width="420" height="747" loading="lazy" decoding="async"
+                   alt="The video academy screen showing technical analysis lessons for beginners.">
+            </div>
+          </div>
+          <figcaption class="gcap"><b data-i18n="cap3.t">Video Academy</b><span data-i18n="cap3.s">Learn step by step</span></figcaption>
+        </figure>
+        <figure class="gitem">
+          <div class="phone">
+            <div class="screen">
+              <img src="assets/img/screens/coach.png?v=1.8.0" width="420" height="657" loading="lazy" decoding="async"
+                   alt="The AI trading coach screen offering to explain trading strategies step by step.">
+            </div>
+          </div>
+          <figcaption class="gcap"><b data-i18n="cap2.t">AI Trading Coach</b><span data-i18n="cap2.s">Understand strategies, 24/7</span></figcaption>
+        </figure>
+        <figure class="gitem">
+          <div class="phone">
+            <div class="screen">
+              <img src="assets/img/screens/plans.png?v=1.8.0" width="420" height="685" loading="lazy" decoding="async"
+                   alt="The membership plans screen showing the V1, V2 and V3 subscription tiers.">
+            </div>
+          </div>
+          <figcaption class="gcap"><b data-i18n="cap4.t">Membership</b><span data-i18n="cap4.s">Simple, flexible plans</span></figcaption>
+        </figure>
+      </div>
+      <p class="center editnote" style="margin-top:26px" data-i18n="app.note">App interface shown for illustration.</p>
+    </div>
+  </section>
+
+  <!-- ══ إزاي بيشتغل ════════════════════════════════════════════ -->
+  <section id="how" style="background:var(--surface-2)">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow" data-i18n="how.eyebrow">How it works</div>
+        <h2 data-i18n="how.h2">From sign-up to full access</h2>
+      </div>
+      <div class="steps reveal">
+        <div class="step"><div class="num mono">01</div><h3 data-i18n="s1.h">Create your account</h3><p data-i18n="s1.p">Sign in securely with Google. No complicated setup.</p></div>
+        <div class="step"><div class="num mono">02</div><h3 data-i18n="s2.h">Explore free content</h3><p data-i18n="s2.p">Browse sample lessons and the app before you subscribe.</p></div>
+        <div class="step"><div class="num mono">03</div><h3 data-i18n="s3.h">Choose your plan</h3><p data-i18n="s3.p">Pick the plan that fits you and contact our team.</p></div>
+        <div class="step"><div class="num mono">04</div><h3 data-i18n="s4.h">Activate your membership</h3><p data-i18n="s4.p">We activate your membership and you start learning.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ الباقات ════════════════════════════════════════════════ -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow" data-i18n="price.eyebrow">Membership plans</div>
+        <h2 data-i18n="price.h2">Simple pricing for full access</h2>
+        <p data-i18n="price.p">Every plan unlocks the complete Trade Hub experience — the academy, analysis, AI assistant, and tools. Cancel anytime; your access runs to the end of the paid period.</p>
+      </div>
+      <div class="plans reveal">
+        <div class="plan">
+          <div class="plan-ic v1" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 3 7-8"/><path d="M15 6h4v4"/></svg></div>
+          <div class="pname"><span data-i18n="p1.n">Beginner</span> <span class="ver">V1</span></div>
+          <div class="pdesc" data-i18n="p1.d">A strong start for newcomers — the full foundation course.</div>
+          <div class="cost">
+            <span class="was mono">$55</span>
+            <span class="amt mono">$35</span>
+            <span class="per" data-i18n="p.per">/ month</span>
+          </div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p1.f1">Full beginner video academy</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p1.f2">Daily educational market analysis</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p1.f3">AI assistant for questions and concepts</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p1.f4">Community access</span></li>
+          </ul>
+          <a class="btn btn-ghost" href="contact.html" data-i18n="p.cta">Contact us to subscribe</a>
+        </div>
+
+        <div class="plan feature">
+          <div class="badge" data-i18n="p2.badge">Most popular</div>
+          <div class="plan-ic v2" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2.1-.1-2.9a2 2 0 0 0-2.9-.1z"/><path d="M12 15l-3-3a20 20 0 0 1 8-11 12 12 0 0 1 6 6 20 20 0 0 1-11 8z"/><path d="M9 12H5s.5-2.6 2-4c1.6-1.6 5 0 5 0"/></svg></div>
+          <div class="pname"><span data-i18n="p2.n">Intermediate</span> <span class="ver">V2</span></div>
+          <div class="pdesc" data-i18n="p2.d">For traders who know the basics and want to go deeper.</div>
+          <div class="cost">
+            <span class="was mono">$85</span>
+            <span class="amt mono">$50</span>
+            <span class="per" data-i18n="p.per">/ month</span>
+          </div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p2.f1">Everything in V1</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p2.f2">Intermediate strategy courses</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p2.f3">Weekly live analysis sessions</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p2.f4">Risk &amp; money management module</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p2.f5">Priority support</span></li>
+          </ul>
+          <a class="btn btn-primary" href="contact.html" data-i18n="p.cta2">Contact us to subscribe</a>
+        </div>
+
+        <div class="plan">
+          <div class="plan-ic v3" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M12 3l-4 6 4 12 4-12-4-6"/></svg></div>
+          <div class="pname"><span data-i18n="p3.n">Professional</span> <span class="ver">V3</span></div>
+          <div class="pdesc" data-i18n="p3.d">The complete library for the committed trader.</div>
+          <div class="cost">
+            <span class="was mono">$100</span>
+            <span class="amt mono">$85</span>
+            <span class="per" data-i18n="p.per">/ month</span>
+          </div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p3.f1">Everything in V2</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p3.f2">Advanced &amp; professional strategy library</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p3.f3">Full strategy automation tools</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p3.f4">Monthly one-to-one review session</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg><span data-i18n="p3.f5">Early access to new content</span></li>
+          </ul>
+          <a class="btn btn-ghost" href="contact.html" data-i18n="p.cta3">Contact us to subscribe</a>
+        </div>
+      </div>
+      <p class="center editnote" style="margin-top:22px" data-i18n="price.note">Prices shown in USD. Local pricing may vary.</p>
+    </div>
+  </section>
+
+  <!-- ══ الدفع ══════════════════════════════════════════════════ -->
+  <section id="payments" style="background:var(--surface-2)">
+    <div class="wrap">
+      <div class="split reveal">
+        <div>
+          <div class="eyebrow" data-i18n="pay.eyebrow">Payments &amp; security</div>
+          <h2 style="font-size:clamp(26px,4.4vw,36px);margin:14px 0 16px" data-i18n="pay.h2">Payment methods</h2>
+          <p class="muted" style="font-size:16.5px" data-i18n="pay.p1">Memberships are arranged directly with our team. We accept Visa and Mastercard, and major cryptocurrencies including USDT, BTC and ETH. Card and crypto payments are processed by a PCI DSS compliant payment provider — Trade Hub never sees or stores your card details.</p>
+          <p class="muted" style="font-size:16.5px;margin-top:14px" data-i18n="pay.p2">To subscribe, contact us and we will send you the payment details for the plan you chose. Once the payment is confirmed, we activate your membership on your account.</p>
+          <div class="pay-methods" style="margin-top:22px">
+            <span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2.5"/><path d="M2 10h20"/></svg> <span class="brandmark">VISA</span></span>
+            <span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="12" r="6"/><circle cx="15" cy="12" r="6"/></svg> <span class="brandmark">Mastercard</span></span>
+            <span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 9h6a2.5 2.5 0 0 1 0 5H8h6a2.5 2.5 0 0 1 0 5H8M11 6v12"/></svg> USDT · BTC · ETH</span>
+            <span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> <span data-i18n="pay.ssl">TLS 1.3 secured</span></span>
+          </div>
+          <div class="geo-note" style="margin-top:22px">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
+            <span><b data-i18n="pay.geo">Geographic restrictions:</b> <span data-i18n="pay.geoP">Payment services are not available to residents or citizens of the United States, or to countries subject to international sanctions. By completing a payment you confirm you are not in one of these categories.</span></span>
+          </div>
+        </div>
+        <div class="service">
+          <div class="eyebrow" data-i18n="pay.h3">What you're paying for</div>
+          <ul class="svc-list" style="margin-top:16px">
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg></span><span data-i18n="pay.l1">A digital membership to a software and education platform.</span></li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg></span><span data-i18n="pay.l2">Delivered instantly and entirely online — no physical goods.</span></li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg></span><span data-i18n="pay.l3">A fixed-term subscription (30, 90, or 365 days).</span></li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12l4 4L19 6"/></svg></span><span data-i18n="pay.l4">Clear pricing, with no hidden or recurring charges you didn't choose.</span></li>
+          </ul>
+          <a class="btn btn-primary btn-block" style="margin-top:22px" href="contact.html" data-i18n="nav.cta">View plans</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ إخلاء المسؤولية ════════════════════════════════════════ -->
+  <section class="risk">
+    <div class="risk-in">
+      <div class="badge-w"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg></div>
+      <div class="eyebrow" style="color:var(--ink-gold)" data-i18n="risk.eyebrow">Important risk disclaimer</div>
+      <h2 style="margin-top:12px" data-i18n="risk.h2">Education, not financial advice</h2>
+      <p style="margin-top:14px" data-i18n="risk.p1">Trade Hub is an educational and software platform. All content, analysis, signals, and tools are provided for educational and informational purposes only and do not constitute financial, investment, or trading advice, nor a recommendation to buy or sell any instrument.</p>
+      <p style="margin-top:14px" data-i18n="risk.p2">Trading forex, binary options, and other financial instruments carries a high level of risk and may not be suitable for every investor. You could lose some or all of your capital. Past performance is not indicative of future results. We do not guarantee any profit or outcome. You are solely responsible for your own trading decisions and should only trade with money you can afford to lose.</p>
+    </div>
+  </section>
+
+  <!-- ══ السياسات ═══════════════════════════════════════════════ -->
+  <section id="policies">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow" data-i18n="pol.eyebrow">Our policies</div>
+        <h2 data-i18n="pol.h2">Clear terms you can count on</h2>
+      </div>
+      <div class="grid g4 reveal">
+        <div class="card" id="terms">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg><span data-i18n="pol.t1">Terms of Service</span></h3>
+          <p data-i18n="pol.p1">Memberships grant a personal, non-transferable licence to use the Trade Hub app and its content. Accounts may not be shared or resold. We may update features and content to improve the service. Misuse or fraud may result in suspension.</p>
+          <a class="more" href="terms.html"><span data-i18n="pol.read">Read the full policy</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="card" id="privacy">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 8-8 11-4.5-3-8-6-8-11V5z"/></svg><span data-i18n="pol.t2">Privacy Policy</span></h3>
+          <p data-i18n="pol.p2">We collect only the data needed to run the service — your account details and usage. Payments are processed by our payment partners; we never store card numbers. We do not sell your personal data. You can request account deletion at any time.</p>
+          <a class="more" href="privacy.html"><span data-i18n="pol.read">Read the full policy</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="card" id="refunds">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg><span data-i18n="pol.t3">Refund Policy</span></h3>
+          <p data-i18n="pol.p3">Because memberships unlock digital content immediately, they are generally non-refundable once access is granted. If you're charged in error or can't access what you paid for, contact support within 7 days and we'll make it right.</p>
+          <a class="more" href="refund.html"><span data-i18n="pol.read">Read the full policy</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="card" id="aml">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l7 4v6c0 4.5-3 7.5-7 10-4-2.5-7-5.5-7-10V6z"/><path d="M12 8v4"/><path d="M12 15h.01"/></svg><span data-i18n="pol.t4">AML &amp; Compliance</span></h3>
+          <p data-i18n="pol.p4">We refuse any attempt to use the service for money laundering or to fund unlawful activity. We monitor for suspicious transactions, work only with payment partners that meet AML/KYC standards, and reserve the right to request identity verification where necessary.</p>
+          <a class="more" href="aml-kyc.html"><span data-i18n="pol.read">Read the full policy</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ الأسئلة ════════════════════════════════════════════════ -->
+  <section id="faq" style="background:var(--surface-2)">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow" data-i18n="faq.eyebrow">FAQ</div>
+        <h2 data-i18n="faq.h2">Questions, answered</h2>
+      </div>
+      <div class="faq reveal">
+        <details open><summary><span data-i18n="q1">What exactly is Trade Hub?</span><span class="pm-ic" aria-hidden="true">+</span></summary><p data-i18n="a1">Trade Hub is a subscription app for trading education and market tools. You get a video academy, live market analysis, an AI assistant, strategy tools, and a community — across Android, iOS, Web, and Windows.</p></details>
+        <details><summary><span data-i18n="q2">What am I paying for when I subscribe?</span><span class="pm-ic" aria-hidden="true">+</span></summary><p data-i18n="a2">A digital membership that unlocks all of the app's learning content and tools for a fixed period (30, 90, or 365 days). It's a software and education service — not an investment or money-management product.</p></details>
+        <details><summary><span data-i18n="q3">How do I get access after paying?</span><span class="pm-ic" aria-hidden="true">+</span></summary><p data-i18n="a3">Once your payment is confirmed, we activate your membership on your account and everything unlocks inside the app — there is nothing separate to install.</p></details>
+        <details><summary><span data-i18n="q4">Which payment methods can I use?</span><span class="pm-ic" aria-hidden="true">+</span></summary><p data-i18n="a4">Visa, Mastercard, or cryptocurrency such as USDT, BTC and ETH. Contact us and we will send you the payment details — we never see your card details.</p></details>
+        <details><summary><span data-i18n="q5">Is this financial advice?</span><span class="pm-ic" aria-hidden="true">+</span></summary><p data-i18n="a5">No. Everything in Trade Hub is for education only and is not financial or investment advice. Trading carries real risk, and all decisions are your own. Please read the risk disclaimer above.</p></details>
+        <details><summary><span data-i18n="q6">Can I cancel?</span><span class="pm-ic" aria-hidden="true">+</span></summary><p data-i18n="a6">Yes. Memberships are fixed-term and don't lock you in — simply don't renew. Your access continues until the end of the period you paid for.</p></details>
+        <details><summary><span data-i18n="q7">Do you guarantee profits?</span><span class="pm-ic" aria-hidden="true">+</span></summary><p data-i18n="a7">No — and you shouldn't trust anyone who says they do. We sell education and tools, not outcomes. Any figures or past results shown are for educational purposes only and are not a promise of anything.</p></details>
+        <details><summary><span data-i18n="q8">Is the service available in my country?</span><span class="pm-ic" aria-hidden="true">+</span></summary><p data-i18n="a8">The service is available in most countries, except the United States and countries subject to international sanctions. If you're unsure, contact us before paying.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ الدعوة ═════════════════════════════════════════════════ -->
+  <section>
+    <div class="wrap">
+      <div class="cta reveal">
+        <h2 data-i18n="cta.h">Ready to trade with a system?</h2>
+        <p data-i18n="cta.p">Join Trade Hub and get the academy, analysis, AI assistant, and tools — all in one app, on every device.</p>
+        <a class="btn btn-primary btn-lg" href="contact.html" data-i18n="cta.btn">See the plans</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ══ الفوتر ═════════════════════════════════════════════════════ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-about">
+        <a class="brand" href="#top">
+          <img class="glyph" src="assets/img/logo-64.png?v=1.8.0" alt="" width="31" height="31" decoding="async">
+          Trade&nbsp;Hub
+        </a>
+        <p data-i18n="foot.about">A multi-platform trading education and analytics platform for the Arabic trading community.</p>
+        <div class="copymail" id="copyMail" role="button" tabindex="0" title="Copy email">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <span id="mailText">abtkar331@gmail.com</span>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="foot.product">Product</h4>
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#app" data-i18n="nav.app">The App</a>
+        <a href="#pricing" data-i18n="nav.pricing">Plans</a>
+        <a href="#payments" data-i18n="nav.payments">Payments</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot.legal">Legal</h4>
+        <a href="terms.html" data-i18n="pol.t1">Terms of Service</a>
+        <a href="privacy.html" data-i18n="pol.t2">Privacy Policy</a>
+        <a href="refund.html" data-i18n="pol.t3">Refund Policy</a>
+        <a href="aml-kyc.html" data-i18n="pol.t4">AML &amp; Compliance</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot.support">Support</h4>
+        <a href="contact.html" data-i18n="foot.contact">Contact us</a>
+        <a href="#faq" data-i18n="foot.help">Help &amp; FAQ</a>
+        <a href="#policies" data-i18n="foot.policies">Our policies</a>
+        <a href="#about" data-i18n="foot.what">What we offer</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="yr">2026</span> Trade Hub. <span data-i18n="foot.rights">All rights reserved.</span></span>
+      <span data-i18n="foot.tag">Education &amp; software service · Not financial advice</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ شريط الكوكيز ═══════════════════════════════════════════════ -->
+<div id="cookieBar" data-show="false" role="region" aria-label="Cookie notice">
+  <div class="cb-in">
+    <p><span data-i18n="ck.text">We use only the cookies needed to run the site and remember your preferences (language and theme). No advertising trackers.</span> <a href="privacy.html" data-i18n="ck.more">Learn more</a></p>
+    <div class="cb-btns">
+      <button class="btn btn-primary cb-accept" type="button" data-i18n="ck.ok">Got it</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/i18n.js?v=1.8.0"></script>
+<script src="assets/js/app.js?v=1.8.0"></script>
+</body>
+</html>

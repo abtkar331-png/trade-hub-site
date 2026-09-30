@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abtkar331-png.github.io/trade-hub-site/sitemap.xml
